@@ -19,5 +19,10 @@ public class Main {
 
         System.out.println("Tamanho da lista: " + listaProdutos.size());
         System.out.println("Um produto da lista é: " + listaProdutos.get(1));
+
+        System.out.println("Todos os produtos da lista: ");
+        for (Produto produto : listaProdutos){
+            System.out.println(produto);
+        }
     }
 }
