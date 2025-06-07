@@ -2,8 +2,8 @@ package Exercicio1;
 
 public class Pessoa {
 
-    private String nome = "João";
-    private int idade = 30;
+    private String nome;
+    private int idade;
 
     public Pessoa(int idade, String nome) {
         this.idade = idade;

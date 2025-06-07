@@ -14,5 +14,7 @@ public class Main {
         listaDePessoas.add(pessoa2);
         listaDePessoas.add(pessoa3);
 
+        System.out.println("Tamanho da lista: " + listaDePessoas.size());
+
     }
 }
