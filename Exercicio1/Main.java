@@ -16,5 +16,7 @@ public class Main {
 
         System.out.println("Tamanho da lista: " + listaDePessoas.size());
 
+        System.out.println("Primeira pessoa: " + listaDePessoas.get(0));
+
     }
 }
