@@ -16,4 +16,10 @@ public class Produto {
     public String toString() {
         return "Produto: " + nome + "/ R$ " + preco + " por unidade" + "/ quantidade no carrinho: " + quantidade;
     }
+
+    public static void main(String[] args) {
+        Produto produto = new Produto("Caneta", 2.99, 2);
+        System.out.println(produto);
+    }
+
 }
