@@ -18,5 +18,10 @@ public class Main {
 
         System.out.println("Primeira pessoa: " + listaDePessoas.get(0));
 
+        System.out.println("Lista completa");
+        for (Pessoa pessoa : listaDePessoas){
+            System.out.println(pessoa);
+        }
+
     }
 }
